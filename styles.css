@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.guest {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+}
+
+.computer {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background: #FFCA5F;
+}
+
+.top {
+  height: 20%;
+}
+
+h1 {
+  margin: 10px 20px;
+  font-size: 45px;
+  font-family: 'Lobster', cursive;
+}
+
+.guest h1 {
+  color: #FFCA5F;
+  float: right;
+}
+
+.computer h1 {
+  color: #fff;
+  float: left;
+}
+
+.turns {
+  display: block;
+  visibility: visible;
+  width: 20px;
+  height: 20px;
+  margin: 33px 20px;
+  border-radius: 50%;
+}
+
+#computerTurn {
+  float: right;
+  background: #fff;
+  visibility: hidden;
+}
+
+#guestTurn {
+  float: left;
+  background: #FFCA5F;
+}
+
+#options button {
+  background: #FFCA5F;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  margin: 25px auto;
+}
+
+#options button:hover {
+  cursor: pointer;
+}
+
+#guestAction, #computerAction {
+  height: 80%;
+  width: 100%;
+  padding: 20% 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lobster',cursive;
+  font-size: 72px;
+}
